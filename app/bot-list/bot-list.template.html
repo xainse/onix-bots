@@ -1,0 +1,15 @@
+<section class="bot-list">
+<h2> Our bots ({{$ctrl.bots.length}})</h2>
+    <div class="search-box">
+        <label for="search-box">Search:</label>
+        <input id="search-box" name="search-box" ng-model="$ctrl.query">
+    </div>
+
+<ul>
+    <li ng-repeat="bot in $ctrl.bots | filter:$ctrl.query">
+        <span>{{bot.name}} for {{bot.type}}</span>
+        <p>{{bot.snippet}}</p>
+        <hr>
+    </li>
+</ul>
+</section>

@@ -1,0 +1,6 @@
+# Все запросы переводятся на папку webroot
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    app/    [L]
+    RewriteRule    (.*) app/$1    [L]
+</IfModule>

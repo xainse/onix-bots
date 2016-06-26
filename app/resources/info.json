@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Converter Units",
+    "link": "http://telegram.me/converter_robot",
+    "type": "telegram",
+    "author": {
+      "id": "vladislav.baranchuk",
+      "name": "Vladislav Baranchuk"
+    }
+  },
+
+  {
+    "name": "Converter Units",
+    "link": "https://www.facebook.com/Converter-bot-812105462252621/?fref=ts",
+    "type": "facebook",
+    "author": {
+      "id": "vladislav.baranchuk",
+      "name": "Vladislav Baranchuk"
+    }
+  }
+]
