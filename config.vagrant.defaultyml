@@ -1,0 +1,18 @@
+# -
+CPU_COUNT: 2
+MEMORY: 2048
+# -
+PRIVATE_IP: "192.168.10.13"
+HOSTNAME: "machine"
+# -
+ADDITIONAL_PACKAGES_LIST: "php5-curl php5-gd"
+# -
+MYSQL_ROOT_PASSWORD: "123456"
+DB_NAME: "database2"
+DB_USERNAME: "user2"
+DB_USER_PASSWORD: "user2"
+# -
+PROJECT_FOLDER: "/Users/xain/Projects/www/onix-bots"
+# To use the next capability you need to install vagrant-triggers plugin
+# To destroy a machine it must be running at that moment, else it will be shown an error
+BACKUP_DATABASES: false

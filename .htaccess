@@ -1,4 +1,5 @@
-# Все запросы переводятся на папку webroot
+directoryindex index.php
+
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteRule    ^$    app/    [L]

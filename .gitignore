@@ -1,4 +1,6 @@
+# Logs
 logs/*
+*.log
 !.gitkeep
 node_modules/
 bower_components/
@@ -7,4 +9,8 @@ tmp
 # IDE files
 .idea
 
+# Vendors libraries
 /vendor/*
+
+# Ignore Vagrant local config
+config.vagrant.yml
