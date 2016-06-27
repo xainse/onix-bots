@@ -14,3 +14,4 @@ tmp
 
 # Ignore Vagrant local config
 config.vagrant.yml
+.vagrant/
