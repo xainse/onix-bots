@@ -37,5 +37,7 @@ angular.
                     }
                 }
             ];
+
+            this.orderProp = 'type';
         }
     });

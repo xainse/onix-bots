@@ -4,9 +4,16 @@
         <label for="search-box">Search:</label>
         <input id="search-box" name="search-box" ng-model="$ctrl.query">
     </div>
+    <div class="order-box">
+        <label for="order-box">Sort by:</label>
+        <select id="order-box" ng-model="$ctrl.orderProp">
+            <option value="name">Alphabetical</option>
+            <option value="type">By type</option>
+        </select>
+    </div>
 
 <ul>
-    <li ng-repeat="bot in $ctrl.bots | filter:$ctrl.query">
+    <li ng-repeat="bot in $ctrl.bots | filter:$ctrl.query | orderBy:$ctrl.orderProp">
         <span>{{bot.name}} for {{bot.type}}</span>
         <p>{{bot.snippet}}</p>
         <hr>
