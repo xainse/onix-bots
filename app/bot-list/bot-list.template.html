@@ -12,9 +12,12 @@
         </select>
     </div>
 
-<ul>
+<ul class="bot-list">
     <li ng-repeat="bot in $ctrl.bots | filter:$ctrl.query | orderBy:$ctrl.orderProp">
-        <span>{{bot.name}} for {{bot.type}}</span>
+        <a href="#/bot/{{bot.id}}" class="thumb">
+            <img ng-src="{{bot.imgUrl}}" alt="{{bot.name}}" width="50" />
+        </a>
+        <a href="#/bot/{{bot.id}}" class="thumb">{{bot.name}} for <span class="bot-type">{{bot.type}}</span></a>
         <p>{{bot.snippet}}</p>
         <hr>
     </li>
