@@ -24,8 +24,12 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+
     <script src="bot-list/bot-list.module.js"></script>
     <script src="bot-list/bot-list.component.js"></script>
+    <script src="bot-detail/bot-detail.module.js"></script>
+    <script src="bot-detail/bot-detail.component.js"></script>
 
 </head>
 <body>
@@ -33,7 +37,7 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<bot-list></bot-list>
+    <div ng-view></div>
 
 
 </body>
