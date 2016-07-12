@@ -1,0 +1,15 @@
+{
+  "id": "converter-units-telegram",
+  "name": "Converter Units",
+  "imgUrl": "data/img/converter-units.png",
+  "snippet": "An intuitive and quick unit converter provides a complete list of related measurement conversions for a given unit, once it is entered by a user.",
+  "link": "http://telegram.me/converter_robot",
+  "type": "Telegram",
+  "author": {
+    "id": "vladislav.baranchuk",
+    "name": "Vladislav Baranchuk"
+  },
+  "images": [
+    "data/img/phones/nexus-s.0.jpg"
+  ]
+}
